@@ -50,13 +50,15 @@ function GetBook(){
 
     return (
         <div>
+            <h2>Reading Helper</h2>
+            <p>Please enter a book title, author, and chapter (or range) and submit and wait for a summary and quiz to pop up.</p>
             {/* A form where title, author, and chapter values are entered */}
             <form>
-            <label>Enter the book title:</label>
+            <label>Enter the book title:</label><br/>
             <input  type="text" id="title" placeholder="Silent Spring"/><br/><br/>
-            <label>Enter the book author:</label>
+            <label>Enter the book author:</label><br/>
             <input  type="text" id="author" placeholder="Rachel Carson"/><br/><br/>
-            <label>Enter the book chapter:</label>
+            <label>Enter the book chapter:</label><br/>
             <input  type="text" id="chapter" placeholder="2"/><br/><br/>
             <button type="button" onClick={storeInfo}>Submit</button>
             </form>

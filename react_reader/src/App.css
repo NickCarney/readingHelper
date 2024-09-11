@@ -1,5 +1,35 @@
 .App {
   text-align: center;
+  
+}
+
+body{
+  height:100%;
+  background: linear-gradient(to left,cadetblue, rgb(12, 218, 128));
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #b2d7ed;
+  transform: scale(1.5);
+  transition: all 0.3s ease;
 }
 
 .App-logo {
